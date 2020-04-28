@@ -1,0 +1,22 @@
+.contactComp {
+    
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    width: 35%;
+    text-align: left;
+
+    ul {
+        margin: auto 15px;
+        list-style-type: none;
+        padding: 0;
+        
+    }
+}
+
+// static : normal document 
+// relative: 
+// position: fixed
+// absolute: 
+// sticky: mixture of static and fixed
