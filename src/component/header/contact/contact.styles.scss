@@ -2,12 +2,11 @@
     
     display: flex;
     flex-direction: column;
-    float: right;
     position: relative;
     width: 50%;
-    text-align: right;
+    text-align: left;
     background-color: blue;
-    padding-right: 2em;
+    flex-wrap: wrap;
 
     ul {
         margin: auto 15px;

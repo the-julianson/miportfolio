@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-import TitleComponent from '../../component/title/title.component';
-import ContactComponent from '../../component/contact/contact.component';
-import LeftColumn from '../../component/left-column/left-column.component';
-import RightColumn from '../../component/right-column/right-column.component';
+import TitleComponent from '../../component/header/title/title.component';
+import ContactComponent from '../../component/header/contact/contact.component';
+import LeftColumn from '../../component/main-body/left-column/left-column.component';
+import RightColumn from '../../component/main-body/right-column/right-column.component';
 
 
 

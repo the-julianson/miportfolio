@@ -1,12 +1,17 @@
 .left-first {
     background-color: green;
-    height: 33%;
     position:relative;
-    flex-direction: row;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
 
     hr {
         color:black;
         background-color: black;
         height: 5;
+
+    }
+
+    p {
+        padding: 2px 5px;
     }
 }
