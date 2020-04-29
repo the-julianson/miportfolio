@@ -1,0 +1,12 @@
+.left-first {
+    background-color: green;
+    height: 33%;
+    position:relative;
+    flex-direction: row;
+
+    hr {
+        color:black;
+        background-color: black;
+        height: 5;
+    }
+}

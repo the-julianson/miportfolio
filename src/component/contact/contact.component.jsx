@@ -2,23 +2,21 @@ import React, {useState} from "react";
 import "./contact.styles.scss";
 
 const ContactComponent = () => {
-    const [{phone, email,address, github, linkedin}] = useState({
+    const [properties] = useState({
         phone: 3456453,
-        email: "jbazanaguirre@gmail.com",
+        envelope: "jbazanaguirre@gmail.com",
         address: "Coronel Olmedo 1683, Cordoba Argentina",
-        github: "github",
-        linkedin: "linkedin"
+        github: "https://github.com/the-julianson",
+        linkedin: "https://www.linkedin.com/in/julianbazanaguirre/"
     })
 
   return (
     
     <div className="contactComp">
       <ul>
-        <li className="phone">{phone}</li>
-        <li className="email">{email}</li>
-        <li className="address">{address}</li>
-        <li className="github">{github}</li>
-        <li className="linkedin">{linkedin}</li>
+          {Object.entries(properties).map( ([item, value]) => 
+                <li className={``} key={item}>{`${value}`}</li>
+            )}
       </ul>
     </div>
   );

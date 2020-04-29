@@ -7,8 +7,16 @@
 .header {
   width: 100%;
   display: flex;
-  position: fixed;
-  padding: 20px;
+  position: relative;
+  padding: 0px;
+  top: 0px;
+  left: 0px;
+}
+
+.main-body{
+  width: 100%;
+  display: flex;
+  overflow: hidden;
 }
 
 
