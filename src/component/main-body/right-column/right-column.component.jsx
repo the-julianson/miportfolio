@@ -6,9 +6,7 @@ import RigthExperience from './right-experience/right-experience.component';
 const RightColumn = () => {
     return (
         <div className="rigth-column">
-            <h1>Experience</h1>
-            <RigthExperience/>
-            <RigthExperience/>
+            <h1>El camino hasta aquí</h1>
             <RigthExperience/>
         </div>
     )

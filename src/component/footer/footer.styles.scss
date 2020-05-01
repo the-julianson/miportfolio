@@ -1,0 +1,46 @@
+.footer {
+    display: float;
+
+}
+
+.footer-left {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.footer-middle {
+    float: left;
+    width: 30%
+}
+
+.footer-right {
+    float:left;
+    width: 30%
+}
+
+.markers {
+    margin-bottom: 30px;
+    height: 6em;
+}
+
+.skill {
+    display: float;
+    margin-bottom: 15px;
+
+    .skill-span{
+        float: left;
+        width: 25%;
+        text-align: left;
+    }
+
+    .skill-bar{
+        float: left;
+        margin-left: 1em;
+        margin-top: 0.3em;
+    }
+}
+
+.autor {
+    background-color: cyan;
+}

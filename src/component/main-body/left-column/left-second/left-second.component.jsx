@@ -1,17 +1,17 @@
 import React from "react";
 import "./left-second.styles.scss";
 
-const LeftSecond = ({color}) => (
+
+
+const LeftSecond = ({color, height}) => (
   <div className="left-second">
-    <h2>Education</h2>
-    <h4>1st Degree</h4>
-    <p>University of People</p>
-    <h4>2nd Degree</h4>
-    <p>University of Money</p>
+    <h2>Educacion</h2>
+    <h4>Ingenieria Quimica</h4>
+    <p>Universidad Tecnologica Nacional</p>
     <hr style={{
             color: color,
             backgroundColor: color,
-            height: 5
+            height: height
         }}/>
   </div>
 );

@@ -14,8 +14,8 @@ const ContactComponent = () => {
     
     <div className="contactComp">
       <ul>
-          {Object.entries(properties).map( ([item, value]) => 
-                <li className={``} key={item}>{`${value}`}</li>
+          {Object.entries(properties).map( (item) => 
+                <li className={``} key={item[0]}>{`${item[1]}`}</li>
             )}
       </ul>
     </div>

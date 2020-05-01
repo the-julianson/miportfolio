@@ -17,9 +17,9 @@ class LeftColumn extends React.Component {
     render(){
         return(
             <div className="left-column">
-                <LeftFirst color="black"/>
-                <LeftSecond color="black"/>
-                <LeftThird color="black"/>
+                <LeftFirst color="black" height={1}/>
+                <LeftSecond color="black" height={1}/>
+                <LeftThird color="black" height={1}/>
             </div>
         );
     }
