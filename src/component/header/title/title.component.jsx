@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./title.styles.scss";
 
-const TitleComponent = () => {
-  const [{fullName, jobTitle}] = useState({fullName : "Julian", jobTitle: "React Web Developer"});
+const TitleComponent = ({fullName, jobTitle}) => {
+  
   return (
     <div className="titleComp">
       <h1>{fullName}</h1>

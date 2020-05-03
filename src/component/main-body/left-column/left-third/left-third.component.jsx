@@ -11,11 +11,7 @@ const LeftThird = ({color, height}) => (
       <li>Founder GreenBlue Ltd HK – April 2015 – August 2016</li>
       <li>Ingeniero de perforacion en SLB – Sep 2013 – March 2015</li>
     </ul>
-    <hr style={{
-            color: color,
-            backgroundColor: color,
-            height: height
-        }}/>
+   
   </div>
 );
 export default LeftThird;

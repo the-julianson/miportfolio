@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="autor">Created with React and passion by Julian!</div>
+      
     </div>
   );
 };

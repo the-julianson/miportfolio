@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
 import TitleComponent from '../../component/header/title/title.component';
@@ -11,19 +11,21 @@ import Footer from '../../component/footer/footer.component';
 
 function App() {
 
+    const [{fullName, jobTitle}] = useState({fullName : "Julian", jobTitle: "React Web Developer"});
 
   return (
 
     <div className="App">
       <div className="header">
-        <TitleComponent/>
+        <TitleComponent />
         <ContactComponent/>
       </div>
+     
       <div className="main-body">
-        <LeftColumn/>
+        <LeftColumn fullName={fullName} jobTitle={jobTitle}/>
         <RightColumn/>
       </div>
-      <Footer/>
+      <div className="autor">Created with React and passion by Julian!</div>
     </div>
   );
 }

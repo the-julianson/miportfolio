@@ -19,4 +19,19 @@
   overflow: hidden;
 }
 
+.autor {
+  background-color: cyan;
+}
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  margin: auto 15px;
+  list-style-type: none;
+  padding: 5px 10px;
+  text-align: right;
+  
+}

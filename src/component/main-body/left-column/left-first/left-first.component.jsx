@@ -11,13 +11,6 @@ const LeftFirst = ({ color, height }) => (
       donde la base del progreso esté dado por la capacidad y las ganas de
       desafiarse, de seguir aprendiendo y de desafiar el status-quo.
     </p>
-    <hr
-      style={{
-        color: color,
-        backgroundColor: color,
-        height: height
-      }}
-    />
   </div>
 );
 export default LeftFirst;
