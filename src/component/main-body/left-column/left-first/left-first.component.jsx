@@ -1,5 +1,4 @@
 import React from "react";
-import "./left-first.styles.scss";
 
 const LeftFirst = ({ color, height }) => (
   <div className="left-first">

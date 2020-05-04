@@ -1,5 +1,5 @@
 import React from "react";
-import "./left-second.styles.scss";
+
 
 
 

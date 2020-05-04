@@ -5,7 +5,7 @@ import TitleComponent from '../../component/header/title/title.component';
 import ContactComponent from '../../component/header/contact/contact.component';
 import LeftColumn from '../../component/main-body/left-column/left-column.component';
 import RightColumn from '../../component/main-body/right-column/right-column.component';
-import Footer from '../../component/footer/footer.component';
+// import Footer from '../../component/footer/footer.component';
 
 
 

@@ -1,5 +1,4 @@
 import React from "react";
-import "./right-experience.styles.scss";
 
 const RigthExperience = () => {
   return (

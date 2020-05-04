@@ -1,5 +1,5 @@
 import React from "react";
-import "./left-third.styles.scss";
+
 
 const LeftThird = ({color, height}) => (
   <div className="left-third">
