@@ -25,6 +25,14 @@
         margin: 0;
         font-style: italic;
         font-weight: bold;
+        
+
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          color: orange;
+        }
       }
     }
   }

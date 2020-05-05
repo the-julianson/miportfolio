@@ -9,7 +9,7 @@ import RightColumn from '../../component/main-body/right-column/right-column.com
 
 function App() {
 
-    const [{fullName, jobTitle}] = useState({fullName : "Julian Bazán Aguirre", jobTitle: "Frontend Developer - React.js"});
+    const [{fullName, jobTitle}] = useState({fullName : "Julián Bazán Aguirre", jobTitle: "Frontend Developer - React.js"});
     const [experience] = useState([
       {title: 'Co-Founder Huerta Viva 2.0 Sep2018 – En2020', id: 1},
       {title: 'Voluntario @TheUFG Kansas Mar18-Jun18', id: 2},
@@ -32,12 +32,17 @@ function App() {
       {title: "Git - GitHub - Git CLI", level: "Principiante", id:6},
       {title: "Node.js", level: "Principiante", id:7},
     ])
+    const [contactInfo] = useState({
+      envelope: "jbazanaguirre@gmail.com",
+      github: "github.com/the-julianson",
+      linkedin: "linkedin.com/in/julianbazanaguirre"
+  })
   return (
 
     <div className="App">
       <div className="main-body">
         <LeftColumn experience={experience} languages={languages} skills={skills}/>
-        <RightColumn fullName={fullName} jobTitle={jobTitle}/>
+        <RightColumn fullName={fullName} jobTitle={jobTitle} contactInfo={contactInfo}/>
       </div>
       
     </div>
