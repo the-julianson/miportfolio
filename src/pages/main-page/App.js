@@ -27,9 +27,9 @@ function App() {
       {title: "JavaScript", level: "Competente", id:1},
       {title: "HTML & CSS", level: "Competente", id:2},
       {title: "React.js", level: "Competente", id:3},
-      {title: "React Hooks&Context", level: "Principiante", id:4},
-      {title: "React Redux", level: "Principiante", id:5},
-      {title: "Git - GitHub - Git CLI", level: "Principiante", id:6},
+      {title: "React Hooks&Context", level: "Competente", id:4},
+      {title: "React Redux", level: "Competente", id:5},
+      {title: "Git - GitHub - Git CLI", level: "Competente", id:6},
       {title: "Node.js", level: "Principiante", id:7},
     ])
     const [contactInfo] = useState({
