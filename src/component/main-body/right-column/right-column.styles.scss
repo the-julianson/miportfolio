@@ -1,5 +1,5 @@
 .rigth-column {
-  background-color: white;
+  background-color: #fffff0;
   left: 100px;
   margin: 0 0 0 2px;
   width: 60%;
@@ -7,4 +7,42 @@
   text-align: left;
   padding-left: 2%;
   padding-right: 10%;
+  padding-top: 6em;
+  padding-bottom: 3em;
+
+  .contactComp {
+    margin: 0;
+    padding-left: 0;
+
+    ul {
+      margin: auto 0px;
+      list-style-type: none;
+      text-align: left;
+      padding: 0;
+      
+
+      li {
+        margin: 0;
+        font-style: italic;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .titleComp {
+    margin-top: 2em;
+    h1, h3 {
+      margin: 0;
+    }
+    h1 {
+      font-size: 45px;
+      font-weight: bold;
+    }
+    h3 {
+      font-size: 32px;
+      font-style: oblique;
+    }
+
+
+  }
 }

@@ -3,41 +3,38 @@ import React from "react";
 const RigthExperience = () => {
   return (
     <div className="exp1">
-      <h2>Job Title</h2>
       <p>
-        Hasta el año pasado fui emprendedor en un proyecto de huertas
-        hidropónicas (lechugas que crecen en el agua!  ), y antes de eso
-        voluntario en granjas en Kansas y Texas, ingeniero en plataformas en
-        China, becario de investigación. Que puedo hilvanar de eso? me apasiona
-        aprender y aplicarlo a mejorar las comunidades, ya sea desde la
-        investigación, desde el viajar al exterior para “mamar” algo mejor así
-        poder compartirlo o emprendiendo en proyectos de triple impacto.
+        Hasta el año pasado fui emprendedor, voluntario en ONGs, ingeniero en plataformas, 
+        becario de investigación. El hilo conductor es la <strong><i>pasión por
+        aprender y compartir</i></strong> conocimientos y por mejorar las comunidades
+         emprendiendo en proyectos de triple impacto.
         <br/>
         <br/>
-         Diría
-        que mediados del año pasado, mientras era dueño, emprendedor,
-        constructor, operario, repartidor, operario de mantenimiento de la
-        huerta, decidí volver a retomar mi incipiente entrenamiento en
-        programación. Me di cuenta que es el área IT donde tengo que estar,
+         A mediados del año pasado, dentro de la vorágine de llevar un proyecto propio.
+        Me di cuenta que es el área IT donde tengo que estar,
         crecer y perdurar: tiene potencial de impacto global y local;
-        aprendizaje continuo, investigación, posibilidades de viajar.
+        <strong><i>aprendizaje continuo, investigación, posibilidades de viajar.</i></strong>
         <br/>
         <br/>
         Actualmente estoy en la búsqueda de una oportunidad para desarrollarme
-        como Frontend developer para poder crear soluciones que faciliten la
-        vida de las personas. También la posibilidad de integrarme a un ambiente
-        en donde la base del progreso esté dado por la capacidad y las ganas de
-        desafiarse, de seguir aprendiendo y de desafiar el status-quo. 
+        como Frontend developer para poder apostar al desarrollo. 
+        Amo el prospecto de integrarme a un ambiente
+        en donde la base del progreso esté dado por la <strong><i>capacidad y las ganas de
+        desafiarse, de seguir aprendiendo</i></strong> y de desafiar el status-quo. 
         <br/>
         <br/>
         Me
-        considero una persona al extremo curiosa, con facilidad de aprender y
+        considero una persona al extremo <strong><i>curiosa, con facilidad de aprender</i></strong> y
         gran capacidad de combinar un concepto trayendo perspectivas de
-        diferentes rubros (fruto de mi ecléctica trayectoria quizás?). Me
+        diferentes rubros. Me
         encanta trabajar en equipo y escuchar visiones que desafíen lo que yo se
-        hasta ese momento. Soy creativo y siempre estoy imaginando como una idea
-        puede pasar a la acción. Encuentro dificultades a la hora de cerrar
-        proyectos y gestionarlos de forma ordenada.
+        hasta ese momento. Soy <strong><i>creativo y siempre estoy imaginando como una idea
+        puede pasar a la acción.</i></strong>
+        <br/>
+        <br/>
+        Encuentro dificultades a la hora de cerrar proyectos y gestionarlos de forma ordenada.
+        A veces me cuesta poder ser claro al comunicar una idea.
+        
       </p>
     </div>
   );

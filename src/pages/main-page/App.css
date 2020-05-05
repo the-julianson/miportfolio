@@ -1,43 +1,28 @@
+
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
-}
-
-.header {
-  width: 100%;
-  display: flex;
-  position: relative;
-  padding: 0px;
-  top: 0px;
-  left: 0px;
+  width: 950px;
+  height: 1000px;
 }
 
 .main-body{
   width: 100%;
   display: flex;
-  overflow: hidden;
-}
-
-.autor {
-  background-color: cyan;
+  height: 1100px;
+  margin-top: 25px;
+  border-radius: 10%;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-}
+  font-size: 14px;
+  height: 1100px;
+  background: grey;
 
-ul {
-  margin: auto 0px;
-  list-style-type: none;
-  text-align: right;
 }
 
 li {
   margin-bottom: 0.3em;
 }
 
-progress {
-  color: white;
-}

@@ -1,39 +1,77 @@
-.left-column{
-    width: 40%;
-    background-color:#FF9900;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    padding-right: 2%;
-    color: 	#FFFAFA;
+.left-column {
+  width: 40%;
+  background-color: #ff9900;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2%;
+  color: #fffafa;
+  padding-top: 12em;
+  
 
-    .titleComp {
-        text-align: right;
+  .titleComp {
+    text-align: right;
+
+    h1,
+    h4 {
+      margin: 0;
+    }
+  }
+
+  .left-last {
+    text-align: right;
+    padding-top: 15px;
+    h2,
+    h4,
+    p {
+      margin: 0;
     }
 
-    .left-second {
-        text-align: right;
-    }
 
-    .left-third{
-        text-align: right;
+  }
+
+  .left-third {
+    text-align: right;
+
+    h2 {
+      margin: 0;
+      padding-top: 15px;
     }
+    ul {
+      margin: auto 0px;
+      list-style-type: none;
+      text-align: right;
+      li {
+        margin: 0 5 0 0;
+      }
+    }
+  }
+  h2 {
+    margin: 0;
+    padding-top: 15px;
+    text-align: right;
+  }
+
+  .skill-main {
+    padding-top: 15px;
 
     .skill {
-        display: inline-block;
-        align-items: right;
-    
-        .skill-span{
-            width: 10px;
-        }
-    
-        .skill-bar{
-            float: right;
-            color: white;
-        }
+      margin: 0;
+      display: flex;
+
+      .skill-div {
+        width: 75%;
+        text-align: right;
+        padding-right: 1em;
+      }
+
+      .skill-progress {
+        width: 25%;
+        text-align: right;
+      }
     }
-    
-    
+  }
+  
+  
+  
 }
-
-
