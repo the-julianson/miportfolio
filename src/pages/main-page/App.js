@@ -13,9 +13,9 @@ function App() {
     const [experience] = useState([
       {title: 'Co-Founder Huerta Viva 2.0 Sep2018 – En2020', id: 1},
       {title: 'Voluntario @TheUFG Kansas Mar18-Jun18', id: 2},
-      {title: 'Founder Huerta Hidroponica 1.0 –  Nov16 – Jun17', id: 3},
+      {title: 'Founder Huerta Hidropónica 1.0 –  Nov16 – Jun17', id: 3},
       {title: 'Founder GreenBlue Ltd HK – Apr15 – Aug16', id: 4},
-      {title: 'Ingeniero de perforacion – Sep13 – Mar2015', id: 5},
+      {title: 'Ingeniero de perforación – Sep13 – Mar2015', id: 5},
     ])
     const [languages] = useState([
       {title: 'Español -- Nativo', id: 1},
@@ -25,6 +25,7 @@ function App() {
     ])
     const [skills] = useState([
       {title: "JavaScript", level: "Competente", id:1},
+      {title: "ECMAScript ES6-ES7-ES8-ES9", level: "Competente", id:8},
       {title: "HTML & CSS", level: "Competente", id:2},
       {title: "React.js", level: "Competente", id:3},
       {title: "React Hooks&Context", level: "Competente", id:4},

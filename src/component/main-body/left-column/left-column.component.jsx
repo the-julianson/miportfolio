@@ -33,9 +33,9 @@ const LeftColumn = ({ experience, languages, skills }) => {
         </ul>
       </div>
       <div className="left-last">
-        <h2>Educacion</h2>
-        <h4>Ingenieria Quimica</h4>
-        <p>Universidad Tecnologica Nacional</p>
+        <h2>Educación</h2>
+        <h4>Ingeniería Química</h4>
+        <p>Universidad Tecnológica Nacional</p>
       </div>
 
     </div>
