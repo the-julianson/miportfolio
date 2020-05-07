@@ -13,7 +13,7 @@ const RigthExperience = () => {
          A mediados del año pasado, dentro de la vorágine de llevar un proyecto propio.
         Me di cuenta que es el área IT donde tengo que estar,
         crecer y perdurar: tiene potencial de impacto global y local;
-        <strong><i> aprendizaje continuo, investigación, posibilidades de viajar.</i></strong>
+        <strong><i> aprendizaje continuo, investigación, posibilidades de trabajar en un ambiente internacional.</i></strong>
         <br/>
         <br/>
         Actualmente estoy en la búsqueda de una oportunidad para desarrollarme
