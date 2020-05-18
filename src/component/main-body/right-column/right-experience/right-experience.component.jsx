@@ -1,5 +1,4 @@
 import React from "react";
-import NodeEnvironment from "jest-environment-node";
 
 const RigthExperience = () => {
   return (
@@ -19,8 +18,9 @@ const RigthExperience = () => {
             textDecoration: `none`,
             color: `orange`
           }}
+          target="blank"
         >
-          {` (github).`}
+          {` (@github).`}
         </a>
       </h5>
       <div className="paragraph">
@@ -62,27 +62,29 @@ const RigthExperience = () => {
           marginTop: `20px`
         }}
       >
-        * todoList WebApp
+        * todoList WebApp, demo 
         <a
           href="https://the-julianson.github.io/todoList/"
           style={{
             textDecoration: `none`,
             color: `orange`
           }}
+          target="blank"
         >
-          {` (github).`}
+          {` (@github).`}
         </a>
       </h5>
-      
+
       <div className="paragraph">
         <p>
           Simple todoList app using hooks to manage state. LocalStorage applied.
           Created a Redux-type data flow using useState, useContext and
-          useReducer. Check the git hub project at{" "}
-          <span>
+          useReducer. Please check the repo project at{" "}
+          <span >
             <a
               href="https://github.com/the-julianson/todoList"
-              style={{ textDecoration: NodeEnvironment, color: "ff9900" }}
+              style={{ textDecoration: `none`, color: `#ff9900` }}
+              target="blank"
             >
               github
             </a>
