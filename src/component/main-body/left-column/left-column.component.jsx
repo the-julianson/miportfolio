@@ -2,7 +2,7 @@ import React from "react";
 import "./left-column.styles.scss";
 //import LeftFirst from "./left-first/left-first.component"
 
-const LeftColumn = ({ experience, languages, skills }) => {
+const LeftColumn = ({ courses, languages, skills }) => {
   return (
     <div className="left-column">
       <h2>Skills</h2>
@@ -17,25 +17,33 @@ const LeftColumn = ({ experience, languages, skills }) => {
         })}
       </div>
       <div className="left-third">
-        <h2>Idiomas</h2>
+        <h2>Courses</h2>
+        
+          {courses.map(course => {
+            return (
+              <ul key={course.id}>
+            <li >{course.title} *</li>
+            
+            </ul>
+            );
+          })}
+        
+      </div>
+      <div className="left-third">
+        <h2>Languages</h2>
         <ul>
           {languages.map(exp => {
             return <li key={exp.id}>{exp.title}</li>;
           })}
         </ul>
       </div>
-      <div className="left-third">
-        <h2>Experiencia</h2>
-        <ul>
-          {experience.map(exp => {
-            return <li key={exp.id}>{exp.title}</li>;
-          })}
-        </ul>
-      </div>
+      
       <div className="left-last">
-        <h2>Educación</h2>
-        <h4>Ingeniería Química</h4>
-        <p>Universidad Tecnológica Nacional</p>
+        <h2>Education</h2>
+        <h4>Zero to Mastery Academy</h4>
+        <p style={{fontSize: `13px`}}>Complete React Developer and Advanced JavaScript</p>
+        <h4>Chemical Engineering</h4>
+        <p>Universidad Tecnológica Nacional - avg grade: 8.2</p>
       </div>
 
     </div>
