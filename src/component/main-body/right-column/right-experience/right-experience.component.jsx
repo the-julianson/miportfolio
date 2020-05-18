@@ -74,7 +74,7 @@ const RigthExperience = () => {
       <div className="paragraph"
       >
         <p>
-        Simple app to add books to a reading list using hooks to manage state.
+        Simple todoList app using hooks to manage state. LocalStorage applied.
 Created a Redux-type data flow using useState, useContext and useReducer. 
 
         </p>
