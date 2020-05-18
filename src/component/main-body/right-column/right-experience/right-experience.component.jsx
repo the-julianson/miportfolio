@@ -1,4 +1,5 @@
 import React from "react";
+import NodeEnvironment from "jest-environment-node";
 
 const RigthExperience = () => {
   return (
@@ -50,16 +51,17 @@ const RigthExperience = () => {
           for<strong> remote repository</strong>.
         </p>
         <p>
-          Implemented<strong> Advanced JavaScript </strong>functions and
-          methods such as:{" "}
-          <strong>map, reduce, filter, find, async/await</strong>; also{" "}
+          Implemented<strong> Advanced JavaScript </strong>functions and methods
+          such as: <strong>map, reduce, filter, find, async/await</strong>; also{" "}
           <strong>spread, destructuring</strong>,{" "}
           <strong>ternary operators </strong>and others<strong>.</strong>
         </p>
       </div>
-      <h5 style={{
-        marginTop: `20px`
-      }}>
+      <h5
+        style={{
+          marginTop: `20px`
+        }}
+      >
         * todoList WebApp
         <a
           href="https://the-julianson.github.io/todoList/"
@@ -70,13 +72,21 @@ const RigthExperience = () => {
         >
           {` (github).`}
         </a>
-      </h5 >
-      <div className="paragraph"
-      >
+      </h5>
+      
+      <div className="paragraph">
         <p>
-        Simple todoList app using hooks to manage state. LocalStorage applied.
-Created a Redux-type data flow using useState, useContext and useReducer. 
-
+          Simple todoList app using hooks to manage state. LocalStorage applied.
+          Created a Redux-type data flow using useState, useContext and
+          useReducer. Check the git hub project at{" "}
+          <span>
+            <a
+              href="https://github.com/the-julianson/todoList"
+              style={{ textDecoration: NodeEnvironment, color: "ff9900" }}
+            >
+              github
+            </a>
+          </span>
         </p>
       </div>
     </div>
