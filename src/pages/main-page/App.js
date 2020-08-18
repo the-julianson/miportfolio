@@ -8,7 +8,7 @@ import RightColumn from "../../component/main-body/right-column/right-column.com
 function App() {
   const [{ fullName, jobTitle }] = useState({
     fullName: "Julián Bazán Aguirre",
-    jobTitle: "Frontend Developer - React.js"
+    jobTitle: "Fullstack Developer"
   });
   const [courses] = useState([
     {
@@ -76,14 +76,15 @@ function App() {
     { title: "Chinese -- Intermediate B1", id: 4 }
   ]);
   const [skills] = useState([
+    { title: "Django", level: "Proficient", id: 7 },
+    { title: "Django-REST", level: "Proficient", id: 8 },
+    { title: "Python", level: "Proficient", id: 9 },
+    { title: "REST-API", level: "Training", id: 10 },
     { title: "JavaScript", level: "Proficient", id: 1 },
-    { title: "ECMAScript ES6-ES7-ES8-ES9", level: "Proficient", id: 8 },
     { title: "HTML & CSS", level: "Proficient", id: 2 },
     { title: "React.js", level: "Proficient", id: 3 },
     { title: "React Hooks&Context", level: "Proficient", id: 4 },
-    { title: "React Redux", level: "Proficient", id: 5 },
-    { title: "Git - GitHub - Git CLI", level: "Proficient", id: 6 },
-    { title: "Node.js", level: "Beginner", id: 7 }
+    { title: "Git - GitHub - Git CLI", level: "Proficient", id: 6 }
   ]);
   const [contactInfo] = useState({
     envelope: "jbazanaguirre@gmail.com",
